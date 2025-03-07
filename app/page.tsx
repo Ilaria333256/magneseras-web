@@ -8,8 +8,9 @@ export default function Home() {
           className="dark:invert"
           src="/next.svg"
           alt="Next.js logo"
-          width={180}
+          width={100} // Tamaño fijo para evitar la advertencia
           height={38}
+          style={{ width: "auto", height: "auto" }} // Solución para el aviso
           priority
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
